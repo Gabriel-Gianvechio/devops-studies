@@ -1,0 +1,52 @@
+#     git init – Inicializa um novo repositório Git no diretório atual.
+#     Exemplo: git init
+    
+#     git clone – Clona um repositório remoto para o seu computador.
+#     Exemplo: git clone https://github.com/user/repo.git
+    
+#     git status – Exibe o status dos arquivos no repositório (modificados, adicionados, etc.).
+#     Exemplo: git status
+    
+#     git add – Adiciona arquivos ao estágio (prepara para commit).
+#     Exemplo: 
+#     git add arquivo.txt (adiciona um arquivo específico)
+#     git add . (adiciona todos os arquivos modificados)
+     
+#     git commit -m "mensagem" – Salva as alterações no repositório com uma mensagem descritiva.
+#     Exemplo: git commit -m "Adicionando novo recurso"
+    
+#     git push – Envia os commits locais para o repositório remoto.
+#     Exemplo: git push origin main (envia para a branch main)
+    
+#     git pull – Baixa as atualizações do repositório remoto e aplica no repositório local.
+#     Exemplo: git pull origin main
+   
+#     git branch – Lista, cria ou exclui branches.
+#     Exemplo: 
+#     git branch (lista branches)
+#     git branch nova-branch (cria uma nova branch)
+#     git branch -d nome-branch (deleta uma branch)
+    
+#     git checkout – Troca de branch ou restaura arquivos.
+#     Exemplo: 
+#     git checkout nome-branch (muda para a branch especificada)
+#     git checkout -- arquivo.txt (descarta mudanças locais no arquivo)
+    
+#     git merge – Mescla uma branch com a branch atual.
+#     Exemplo: git merge nome-branch
+    
+#     git log – Exibe o histórico de commits.
+#     Exemplo: git log --oneline (mostra commits resumidos)
+    
+#     git reset – Reverte alterações no repositório.
+#     Exemplo: git reset --hard HEAD~1 (desfaz o último commit permanentemente)
+    
+#     git stash – Salva temporariamente alterações não commitadas.
+#     Exemplo: 
+#     git stash (guarda as mudanças)
+#     git stash pop (recupera as mudanças salvas)
+#   
+#     git remote – Gerencia repositórios remotos.
+#     Exemplo: 
+#     git remote -v (lista repositórios remotos)
+#     git remote add origin URL (adiciona um repositório remoto)

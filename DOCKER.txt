@@ -1,0 +1,81 @@
+_____________________________________________________________
+
+    Gerenciar Imagens
+
+Baixar uma imagem do Docker Hub
+Exemplo: docker pull nginx:latest
+
+Listar imagens disponíveis
+Exemplo: docker images
+
+Remover uma imagem
+Exemplo: docker rmi imagem_id
+_____________________________________________________________
+
+    Gerenciar Containers
+
+Criar e rodar um container interativo
+Exemplo: docker run -it ubuntu bash
+
+Rodar um container em segundo plano (-d) com nome
+Exemplo: docker run -d --name meu_nginx nginx
+
+Rodar um container com porta mapeada
+Exemplo: docker run -d -p 8080:80 nginx
+
+Listar containers em execução
+Exemplo: docker ps
+
+Listar todos os containers (incluindo os parados)
+Exemplo: docker ps -a
+
+Parar um container
+Exemplo: docker stop container_id
+
+Reiniciar um container
+Exemplo: docker restart container_id
+
+Remover um container
+Exemplo: docker rm container_id
+
+Entrar dentro de um container em execução
+Exemplo: docker exec -it container_id bash
+_____________________________________________________________
+
+    Criar e Gerenciar Imagens
+
+Criar uma imagem a partir de um Dockerfile
+Exemplo: docker build -t minha_imagem .
+
+Taguear uma imagem
+Exemplo: docker tag minha_imagem usuario/minha_imagem:tag
+
+Enviar uma imagem para o Docker Hub
+Exemplo: docker push usuario/minha_imagem:tag
+_____________________________________________________________
+
+    Docker Compose
+
+Rodar um docker-compose.yml
+Exemplo: docker-compose up -d
+
+Parar e remover os containers de um docker-compose
+Exemplo: docker-compose down
+
+Listar serviços rodando no docker-compose
+Exemplo: docker-compose ps
+_____________________________________________________________
+
+    Outros Comandos Úteis
+
+Ver logs de um container
+Exemplo: docker logs container_id
+
+Ver consumo de recursos dos containers
+Exemplo: docker stats
+
+Remover todos os containers parados
+Exemplo: docker container prune
+
+Remover todas as imagens não utilizadas
+Exemplo: docker image prune -a

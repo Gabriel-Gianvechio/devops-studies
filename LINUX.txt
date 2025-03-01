@@ -1,0 +1,29 @@
+    cp – Copia arquivos ou diretórios de um local para outro.
+    Exemplo: cp arquivo.txt /caminho/do/destino/
+
+    cd – Altera o diretório atual no terminal.
+    Exemplo: cd /home/usuario/ (vai para o diretório /home/usuario)
+
+    mkdir – Cria um novo diretório.
+    Exemplo: mkdir novo_diretorio
+
+    ls – Lista o conteúdo de um diretório.
+    Exemplo: ls /caminho/do/diretorio
+
+    htop – Exibe um monitor de recursos interativo, mostrando processos em execução e uso de recursos do sistema.
+    Exemplo: htop (precisa de permissão para ser executado)
+
+    sudo – Executa comandos com permissões de superusuário (root), exigindo senha de administrador.
+    Exemplo: sudo apt update (atualiza pacotes no Ubuntu)
+
+    sudo su – Torna o usuário atual o superusuário (root) até o comando exit ser executado.
+    Exemplo: sudo su (obtém permissões de root)
+
+    mv – Move ou renomeia arquivos e diretórios.
+    Exemplo: mv arquivo.txt /novo/diretorio/ (move o arquivo para o novo diretório)
+
+    tail – Exibe as últimas linhas de um arquivo.
+    Exemplo: tail -n 10 arquivo.log (exibe as últimas 10 linhas de um arquivo)
+
+    cat – Exibe o conteúdo de um arquivo no terminal.
+    Exemplo: cat arquivo.txt (mostra o conteúdo de arquivo.txt)
