@@ -27,3 +27,6 @@
 
     cat – Exibe o conteúdo de um arquivo no terminal.
     Exemplo: cat arquivo.txt (mostra o conteúdo de arquivo.txt)
+
+    echo - exibir uma mensagem ou guardar dentro de um arquivo .txt
+    Exemplo: echo "Conteúdo do arquivo" > arquivo.txt
